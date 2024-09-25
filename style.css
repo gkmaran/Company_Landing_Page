@@ -25,10 +25,10 @@ header{
 .head-content h5{
     font-size: 1.3rem;
     font-weight: 400;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 #email{
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 /* sidenav-Section */
 .sidenav hr{
@@ -117,7 +117,7 @@ header{
 .title a{
     text-decoration: none;
     color: #9fa4b9;
-    margin-right: 40px;
+    margin-right: 20px;
     padding-bottom: 10px;
 }
 #green{
@@ -191,7 +191,7 @@ header{
 #plans{
     border-right: none;
 }
-.plans p{
+.plan-content p{
     padding: 5px 80px 10px 0px;
     color: #8f8191;
 }
@@ -211,17 +211,14 @@ header{
 .dollar p{
     color: #474747;
     display: inline-block;
-    width: 30%;
+    width: 40%;
 }
-.dollar button{
+.dollar-button{
     display: inline-block;
-    width: 45%;
-    text-align: center;
-    margin: auto;
-    border: none;
     background-color: #29ca8e;
+    border: none;
     color: white;
-    padding:10px 30px;
+    padding: 10px 20px;
     border-radius: 20px;
 }
 .main-section3{
@@ -319,11 +316,12 @@ footer p{
         top: 10px;
     }
     .input{
-        width: 55%;
+        width: 80%;
         display: block;
         margin: 20px auto;
     }
     #button{
+        width: 80%;
         padding: 10px 22% 10px 22%;
         text-align: center;
         position: relative;
@@ -359,6 +357,9 @@ footer p{
     .name{
         display: block;
         width: 90%;
+    }
+    .dollar p{
+        width: 50%;
     }
     .email{
         display: block;
