@@ -1,0 +1,393 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to right, rgba(65, 71, 94, 0.932), rgba(65, 71, 94, 0.83)), 
+    url('images/home-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+    /* header-Section-1 */
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+}
+.head-content h5{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+#email{
+    margin-right: 2rem;
+}
+/* sidenav-Section */
+.sidenav hr{
+    width: 100%;
+}
+.sidenav{
+    z-index: 100;
+    width: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: lightseagreen;
+    padding: 20px;
+    display: none;
+}
+.sidenav ul li{
+    padding: 20px;
+    list-style: none;
+}
+.sidenav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+/* header-Section-2 */
+.child-content{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    align-items: center;
+}
+.child-content p{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.child-content h1{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+.input{
+    width: 25%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    position: relative;
+    margin-left: 4rem;
+} 
+#button{
+    background-color: #29ca8e;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    position: relative;
+    right: 6.4%;
+    cursor: pointer;
+}
+.main-section1{
+    width: 100%;
+}
+.design{
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    padding: 10%;
+}
+.lap-pic{
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+}
+.design h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #483f53;
+}
+.title{
+    margin-top: 5%;
+}
+.title a{
+    text-decoration: none;
+    color: #9fa4b9;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+#green{
+    color: #483f53;
+    border-bottom: solid 4px #29ca8e;
+}
+.design h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #888674;
+    margin-top: 10%;
+}
+.design p{
+    color: #9fa4b9;
+}
+.main-section2{
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9;
+}
+.main-section2 h1{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: #51595e;
+}
+.about-emp{
+    text-align: left;
+    margin-left: 10%;
+}
+.img-wrap{
+    width: 80%;
+    display: flex;
+    margin: 40px auto;
+}
+.img h2{
+    color: #5a5a5a;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 6%;
+}
+#img-fem{
+    margin-top: 10%;
+}
+.img h6{
+    color: #3b3b3b;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.img p{
+    width: 75%;
+    color: #a9b7cf;
+    margin-top: 2%;
+}
+#plan{
+    margin-top: 10%;
+}
+.plan-wrap{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    background-color: white;
+}
+.plans{
+    flex-basis: 30%;  
+    margin: 1%;  
+    border-right: solid 3px #f0f0f0; 
+    padding-right: 20px;
+}
+#plans{
+    border-right: none;
+}
+.plans p{
+    padding: 5px 80px 10px 0px;
+    color: #8f8191;
+}
+.plan-head{
+    border-bottom: solid 3px #f0f0f0;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.dollar{
+    width: 100%;
+    border-top: solid 3px #f0f0f0;
+    padding-top: 20px;
+    margin: auto;
+}
+.dollar p{
+    color: #474747;
+    display: inline-block;
+    width: 30%;
+}
+.dollar button{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    border: none;
+    background-color: #29ca8e;
+    color: white;
+    padding:10px 30px;
+    border-radius: 20px;
+}
+.main-section3{
+    width: 100%;
+}
+.main-section3 h1{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: #51595e;
+    margin-top: 10%;
+}
+.details{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.name{
+    border: none;
+    display: inline-block;
+    width: 30%;
+    border-bottom: solid 2px #e8e4e4;
+    padding-bottom: 1%;
+    color: #9ca1a8;
+}
+.email{
+    display: inline-block;
+    width: 30%;
+    border: none;
+    border-bottom: solid 2px #e8e4e4;
+    padding-bottom: 1%;
+    color: #9ca1a8;
+}
+.button{
+    display: inline-block;
+    width: 25%;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.my-textarea {
+    width: 80%;               
+    height: 150px;            
+    padding: 10px;            
+    border: none;
+    border-bottom: 2px solid #e8e4e4;  
+    color: #9ca1a8; 
+    margin-top: 2%;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    margin: 5% 0px;
+}
+footer p{
+    width: 40%;
+    color: #9ca1a8;
+    display: inline-block;
+}
+.icons{
+    width: 40%;
+    display: inline-block;
+}
+.icons i{
+    padding: 0px 20px;
+}
+
+
+@media (max-width:767px) {
+    .head-content h5{
+        color: black;
+    }
+    #open{
+        background-color: #29ca8e;
+    }
+    .navbar{
+        display: none;
+    }
+    #email{
+        display: none;
+    }
+    .head-content{
+        margin-top: 40px;
+    }
+    .head-content h5{
+        position: absolute;
+        top: 10px;
+    }
+    #open{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    .input{
+        width: 55%;
+        display: block;
+        margin: 20px auto;
+    }
+    #button{
+        padding: 10px 22% 10px 22%;
+        text-align: center;
+        position: relative;
+        left: 1%;
+    }
+    .design{
+        display:block;
+        width: 100%;
+    }
+    .lap-pic{
+        display:block;
+        width: 100%;
+    }
+    .img-wrap{
+        display: block;
+    }
+    #fem{
+        display: flex;
+        flex-direction: column;
+    }
+    #order{
+        order: 2;
+    }
+    .img{
+        margin-top: 5%;
+    }
+    .plan-wrap{
+        display: block;
+    }
+    .plans{
+        margin-bottom: 5%;
+    }
+    .name{
+        display: block;
+        width: 90%;
+    }
+    .email{
+        display: block;
+        width: 90%;
+        margin-top: 4%;
+    }
+    .button{
+        display: block;
+        width: 90%;
+        margin-top: 4%;
+    }
+    .footer p{
+        display: block;
+        width: 100%;
+    }
+    .icons{
+        display: block;
+        margin-top: 5%;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (min-width:767px) and (max-width:840px) {
+    .title a{
+        margin-right: 20px;
+    }
+}
+@media (min-width:767px) {
+    #open{
+        display: none;
+    } 
+}
